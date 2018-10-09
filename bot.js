@@ -56,7 +56,7 @@ function respond() {
 function postMessage() {
   var botResponse, options, body, botReq;
 
-	var maximum = 32;
+	var maximum = 52;
 	var minimum = 1;
 
 	var randomnumber = Math.floor(Math.random() * (maximum - minimum + 1)) + minimum;
@@ -130,7 +130,7 @@ function postMessage() {
 		botResponse = "Cory in the House has no purpose, but it also has ALL of the purpose.";
 		break;
 	case 23:
-		botResponse = "Batt Markofske profitted off of the Skeleton War.";
+		botResponse = "Matt Barkofske is finally gone.";
 		break;
 	case 24:
 		botResponse = "Catt Moleman is my idol.";
@@ -155,11 +155,72 @@ function postMessage() {
 		break;
 	case 31:
 		botResponse = "https://www.youtube.com/watch?v=7ERzPFCE7B0";
-                break;
-        case 32: 
-                botResponse = "Me Me Big Boy";
-                break;
+        break;
+    case 32: 
+        botResponse = "Me Me Big Boy";
+        break;
+	case 33:
+		botResponse = "https://youtu.be/lpvT-Fciu-4";
+		break;
+	case 34:
+		botResponse = "https://youtu.be/jHuPqq60QrM";
+		break;
+	case 35:
+		botResponse = "Logan O'Carroll did 3/11";
+		break;
+	case 36:
+		botResponse = "Hey Jarfield, I made you some delicious Lasagna";
+		break;
+	case 37:
+		botResponse = "Hewwo?? Is anywone owt dere?? OwO";
+		break;
+	case 38:
+		botResponse = "Waluigi Time";
+		break;
+	case 39:
+		botResponse = "It's been One Week since you looked at me.";
+		break;
+	case 40:
+		botResponse = "Super Mario was based on an Italian man I saw die in an accident on a construction site. I thought to myself, What if that man had been killed by a gorilla, rather than negligence? - Shigeru Miyamoto";
+		break;
+	case 41:
+		botResponse = "Why do I look so much like Ty?";
+		break;
+	case 42:
+		botResponse = "Have you bought your weekly copy of Skyrim yet? If not, Todd is coming for you.";
+		break;
+	case 43:
+		botResponse = "Ligma Balls! Hahaha! *starts sobbing*";
+		break;
+	case 44:
+		botResponse = "This is so sad, Alexa play the entire Halo 2 Soundtrack";
+		break;
+	case 45:
+		botResponse = "buying gf";
+		break;
+	case 46:
+		botResponse = "Harry Potter is just British Naruto";
+		break;
+	case 47:
+		botResponse = "I spent $6,000 on ToonTown right before they announced the shut down. I almost offed myself.";
+		break;
+	case 48:
+		botResponse = "New! Mountain Dew AM! Just mix in some orange juice and a raw egg and you're good to go!";
+		break;
+	case 49:
+		botResponse = "This is my fursona, Furvius. Furvius is a level 25 dark mage, with a healing factor of 7. He is impervius to all fire and magic based attacks, and typically votes Republican.";
+		break;
+	case 50:
+		botResponse = "I am Pro-fun, but anti-abortion.";
+		break;
+	case 51:
+		botResponse = "Taylor Schlotzhauer actually works at a Kroger. It is one big conspiracy.";
+		break;
+	case 52:
+		botResponse = "You still believe in the moon?";
+		break;
   }
+	
 
   options = {
     hostname: 'api.groupme.com',
