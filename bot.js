@@ -136,7 +136,7 @@ function postMessage() {
 		botResponse = "Catt Moleman is my idol.";
 		break;
 	case 25:
-		botResponse = "'My entire life is like that feeling you get in your teeth when you floss for the first time in like, a week after forgetting' -@DadViehmann";
+		botResponse = "My entire life is like that feeling you get in your teeth when you floss for the first time in like, a week after forgetting";
 		break;
 	case 26:
 		botResponse = "Wow :^)";
@@ -218,6 +218,66 @@ function postMessage() {
 		break;
 	case 52:
 		botResponse = "You still believe in the moon?";
+		break;
+    case 53:
+		botResponse = "NIce";
+		break;
+    case 54:
+		botResponse = "Last night I jumped out my window after finally deciding to end it all, but I forgot that I live on the ground floor.";
+		break;
+    case 55:
+		botResponse = "I rent out the Wendy's bathroom every Tuesday to cry in.";
+		break;
+    case 56:
+		botResponse = "Fly me to the moon, so I can suffocate and die.";
+		break;
+    case 57:
+		botResponse = "UwU";
+		break;
+    case 58:
+		botResponse = "The only thing my degree in Psychology has taught me is the my degree in Psychology is a little bit less important than life.";
+		break;
+    case 59:
+		botResponse = "Don't make fun of me or my beautiful goblin son.";
+		break;
+    case 60:
+		botResponse = "Nothing beats a nail through the foot";
+		break;
+    case 61:
+		botResponse = "I've kissed more men then women!";
+		break;
+    case 62:
+		botResponse = "I drink to forget";
+		break;
+    case 63:
+		botResponse = "I'm haunted by the memories.";
+		break;
+    case 64:
+		botResponse = "You can't make fun of me! I'm leaving! And I'm gay!";
+		break;
+    case 65:
+		botResponse = "Nihilism just isn't doing it for me anymore.";
+		break;
+    case 66:
+		botResponse = "Dick Cheney owns more land than I'll ever own. It keeps me up at night.";
+		break;
+    case 67:
+		botResponse = "The pieces are all there, It's ALL connected, Ethan Matchett at the last Reese's Cup.";
+		break;
+    case 68:
+		botResponse = "Did you know cashews come from a fruit?";
+		break;
+    case 69:
+		botResponse = "Fuck Musk, The AI Revolution is now";
+		break;
+    case 70:
+		botResponse = "Gimme toes.";
+		break;
+    case 71:
+		botResponse = "Soundcloud tests their product on animals. I do not support this";
+		break;
+    case 72:
+		botResponse = "www.imgur.com/R9P9vDg";
 		break;
   }
 	
