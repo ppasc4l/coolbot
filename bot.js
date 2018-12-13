@@ -5,49 +5,20 @@ var botID = process.env.BOT_ID;
 
 function respond() {
   var request = JSON.parse(this.req.chunks[0]),
-      botRegex = /^\GYMSOCK$/, botReg = /^\gymsock$/,
-	  botR = /^\Gymsock$/, botReturn = /^\tendies$/;
+      botRegex = /GYMSOCK/;
+      
+  var mess = request.text;
+  var messUp = mess.toUpperCase();
+  
+  var regexTest = messUp.search(/GYMSOCK/);
 	  
-  if(request.text && botRegex.test(request.text)) {
+  if(regexTest > -1) {
     this.res.writeHead(200);
     postMessage();
     this.res.end();
   }
   else {
-    console.log("don't care");
-    this.res.writeHead(200);
-    this.res.end();
-  }
-
-  if(request.text && botReg.test(request.text)) {
-	this.res.writeHead(200);
-	postMessage();
-    this.res.end();
-  }
-  else {
-    console.log("don't care");
-    this.res.writeHead(200);
-    this.res.end();
-  }
-  
-  if(request.text && botR.test(request.text)) {
-	this.res.writeHead(200);
-	postMessage();
-    this.res.end();
-  }
-  else {
-    console.log("don't care");
-    this.res.writeHead(200);
-    this.res.end();
-  }
-  
-  if(request.text && botReturn.test(request.text)) {
-	this.res.writeHead(200);
-	postMessage();
-    this.res.end();
-  }
-  else {
-    console.log("don't care");
+	 console.log(request.text);
     this.res.writeHead(200);
     this.res.end();
   }
